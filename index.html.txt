@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Movie Project</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>🎥 Movie List</h1>
+    <p>Add your favourite movies below!</p>
+
+    <form id="movieForm">
+      <input type="text" id="movieName" placeholder="Enter movie name" required />
+      <input type="number" id="movieYear" placeholder="Year" required />
+      <button type="submit">Add Movie</button>
+    </form>
+
+    <ul id="movieList"></ul>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
